@@ -43,6 +43,7 @@ public class JewlsModItems {
 	public static final RegistryObject<Item> AQUAMARINE_BLOCK = block(JewlsModBlocks.AQUAMARINE_BLOCK, JewlsModTabs.TAB_JEWELERS_DREAM);
 	public static final RegistryObject<Item> RAW_PERIDOT = REGISTRY.register("raw_peridot", () -> new RawPeridotItem());
 	public static final RegistryObject<Item> RAW_AQUAMARINE = REGISTRY.register("raw_aquamarine", () -> new RawAquamarineItem());
+	public static final RegistryObject<Item> JEWELERS_TABLE = block(JewlsModBlocks.JEWELERS_TABLE, JewlsModTabs.TAB_JEWELERS_DREAM);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

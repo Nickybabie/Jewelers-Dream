@@ -1,16 +1,27 @@
 
 package net.mcreator.jewls.block;
 
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.TieredItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.jewls.init.JewlsModItems;
+
+import java.util.List;
+import java.util.Collections;
 
 public class AquamarineOreBlock extends Block {
-
 	public AquamarineOreBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(2.4000000000000004f, 4.182558210365094f)
 				.requiresCorrectToolForDrops());
-
 	}
 
 	@Override
@@ -27,11 +38,9 @@ public class AquamarineOreBlock extends Block {
 
 	@Override
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(JewlsModItems.DELETED_MOD_ELEMENT.get()));
+		return Collections.singletonList(new ItemStack(JewlsModItems.AQUAMARINE.get()));
 	}
-
 }

@@ -7,35 +7,35 @@
   ],
   "key": {
     "0": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:citrine"
     },
     "1": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:citrine"
     },
     "2": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:citrine"
     },
     "3": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:citrine"
     },
     "4": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:citrine"
     },
     "5": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:citrine"
     },
     "6": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:citrine"
     },
     "7": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:citrine"
     },
     "8": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:citrine"
     }
   },
   "result": {
-    "item": "jewls:deleted_mod_element",
+    "item": "jewls:citrine_block",
     "count": 1
   }
 }

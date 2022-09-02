@@ -1,0 +1,10 @@
+{
+  "parent": "jewls:custom/jewelerstable",
+  "textures": {
+    "all": "jewls:blocks/table",
+    "particle": "jewls:blocks/table_break",
+    "0": "jewls:blocks/table",
+    "1": "jewls:blocks/cabinets",
+    "2": "jewls:blocks/cubby"
+  }
+}

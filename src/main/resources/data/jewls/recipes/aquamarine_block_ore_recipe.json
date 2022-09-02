@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:aquamarine_block"
     }
   ],
   "result": {

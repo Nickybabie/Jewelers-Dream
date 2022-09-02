@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "table",
+        "1": "cabinets",
+        "2": "cubby"
+      },
+      "name": "default"
+    }
+  }
+}

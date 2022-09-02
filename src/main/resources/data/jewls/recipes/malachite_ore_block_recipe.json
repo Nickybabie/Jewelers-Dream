@@ -7,35 +7,35 @@
   ],
   "key": {
     "0": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:malachite"
     },
     "1": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:malachite"
     },
     "2": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:malachite"
     },
     "3": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:malachite"
     },
     "4": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:malachite"
     },
     "5": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:malachite"
     },
     "6": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:malachite"
     },
     "7": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:malachite"
     },
     "8": {
-      "item": "jewls:deleted_mod_element"
+      "item": "jewls:malachite"
     }
   },
   "result": {
-    "item": "jewls:deleted_mod_element",
+    "item": "jewls:malachite_block",
     "count": 1
   }
 }

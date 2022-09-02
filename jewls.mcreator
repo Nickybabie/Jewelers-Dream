@@ -271,12 +271,49 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "peridot"
+    },
+    {
+      "name": "JewelersTable",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jewelers_table"
+    },
+    {
+      "name": "JewelersTableGUI",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jewelers_table_gui"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.jewls.malachite_block": "Block of Malachite",
+      "item.jewls.aquamarine": "Aquamarine",
+      "item.jewls.rose_quartz": "RoseQuartz",
+      "itemGroup.tabjewelers_dream": "Jeweler\u0027s Dream",
+      "block.jewls.aquamarine_block": "Block of Aquamarine",
+      "block.jewls.peridot_ore": "Peridot Ore",
+      "item.jewls.raw_citrine": "Raw Citrine",
+      "block.jewls.rose_quartz_ore": "RoseQuartz Ore",
+      "block.jewls.aquamarine_ore": "Aquamarine Ore",
+      "block.jewls.rose_quartz_block": "Block of RoseQuartz",
+      "item.jewls.citrine": "Citrine Gem",
+      "item.jewls.raw_peridot": "Raw Peridot",
+      "block.jewls.peridot_block": "Block of Peridot",
+      "item.jewls.peridot": "Peridot",
+      "item.jewls.malachite": "Raw Malachite",
+      "item.jewls.raw_aquamarine": "Raw Aquamarine",
+      "block.jewls.jewelers_table": "Jeweler\u0027s Table",
+      "block.jewls.citrine_ore": "Citrine Ore",
+      "block.jewls.malachite_ore": "Malachite Ore",
+      "block.jewls.citrine_block": "Block of Citrine"
+    }
   },
   "foldersRoot": {
     "name": "~",

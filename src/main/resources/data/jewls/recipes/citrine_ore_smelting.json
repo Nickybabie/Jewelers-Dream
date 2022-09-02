@@ -3,7 +3,7 @@
   "experience": 0.7,
   "cookingtime": 200,
   "ingredient": {
-    "item": "jewls:deleted_mod_element"
+    "item": "jewls:citrine_ore"
   },
-  "result": "jewls:deleted_mod_element"
+  "result": "jewls:citrine"
 }

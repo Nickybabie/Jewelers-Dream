@@ -7,6 +7,10 @@ package net.mcreator.jewls.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
@@ -16,6 +20,7 @@ import net.mcreator.jewls.block.PeridotOreBlock;
 import net.mcreator.jewls.block.PeridotBlockBlock;
 import net.mcreator.jewls.block.MalachiteOreBlock;
 import net.mcreator.jewls.block.MalachiteBlockBlock;
+import net.mcreator.jewls.block.JewelersTableBlock;
 import net.mcreator.jewls.block.CitrineOreBlock;
 import net.mcreator.jewls.block.CitrineBlockBlock;
 import net.mcreator.jewls.block.AquamarineOreBlock;
@@ -34,4 +39,13 @@ public class JewlsModBlocks {
 	public static final RegistryObject<Block> PERIDOT_BLOCK = REGISTRY.register("peridot_block", () -> new PeridotBlockBlock());
 	public static final RegistryObject<Block> AQUAMARINE_ORE = REGISTRY.register("aquamarine_ore", () -> new AquamarineOreBlock());
 	public static final RegistryObject<Block> AQUAMARINE_BLOCK = REGISTRY.register("aquamarine_block", () -> new AquamarineBlockBlock());
+	public static final RegistryObject<Block> JEWELERS_TABLE = REGISTRY.register("jewelers_table", () -> new JewelersTableBlock());
+
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class ClientSideHandler {
+		@SubscribeEvent
+		public static void clientSetup(FMLClientSetupEvent event) {
+			JewelersTableBlock.registerRenderLayer();
+		}
+	}
 }

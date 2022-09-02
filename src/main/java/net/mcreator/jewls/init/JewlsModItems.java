@@ -14,6 +14,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.jewls.item.RoseQuartzItem;
+import net.mcreator.jewls.item.RoseQuartzGemItem;
 import net.mcreator.jewls.item.RawPeridotItem;
 import net.mcreator.jewls.item.RawCitrineItem;
 import net.mcreator.jewls.item.RawAquamarineItem;
@@ -43,6 +44,7 @@ public class JewlsModItems {
 	public static final RegistryObject<Item> AQUAMARINE_BLOCK = block(JewlsModBlocks.AQUAMARINE_BLOCK, JewlsModTabs.TAB_JEWELERS_DREAM);
 	public static final RegistryObject<Item> RAW_PERIDOT = REGISTRY.register("raw_peridot", () -> new RawPeridotItem());
 	public static final RegistryObject<Item> RAW_AQUAMARINE = REGISTRY.register("raw_aquamarine", () -> new RawAquamarineItem());
+	public static final RegistryObject<Item> ROSE_QUARTZ_GEM = REGISTRY.register("rose_quartz_gem", () -> new RoseQuartzGemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

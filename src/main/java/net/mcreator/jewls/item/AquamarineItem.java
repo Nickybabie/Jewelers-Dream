@@ -1,13 +1,13 @@
 
 package net.mcreator.jewls.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import javax.annotation.Nullable;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Item;
+
+import net.mcreator.jewls.init.JewlsModTabs;
 
 public class AquamarineItem extends Item {
-
 	public AquamarineItem() {
-		super(new Item.Properties().tab(JewlsModTabs.TAB_DELETED_MOD_ELEMENT).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(JewlsModTabs.TAB_JEWELERS_DREAM).stacksTo(64).rarity(Rarity.COMMON));
 	}
-
 }

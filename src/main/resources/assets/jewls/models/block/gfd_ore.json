@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "jewls:blocks/gfd_ore",
+    "particle": "jewls:blocks/gfd_ore"
+  }
+}

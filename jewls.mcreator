@@ -1,0 +1,83 @@
+{
+  "mod_elements": [
+    {
+      "name": "Gfd",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gfd"
+    },
+    {
+      "name": "GfdOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gfd_ore"
+    },
+    {
+      "name": "GfdBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gfd_block"
+    },
+    {
+      "name": "GfdOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gfd_ore_block_recipe"
+    },
+    {
+      "name": "GfdBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gfd_block_ore_recipe"
+    },
+    {
+      "name": "GfdOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gfd_ore_smelting"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.jewls.gfd_ore": "Gfd Ore",
+      "item.jewls.gfd": "Gfd",
+      "block.jewls.gfd_block": "Block of Gfd"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "jewls",
+    "modName": "Jewls",
+    "version": "1.0.0",
+    "author": "seren, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.jewls",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "jewls:peridot"
+    },
+    "1": {
+      "item": "jewls:peridot"
+    },
+    "2": {
+      "item": "jewls:peridot"
+    },
+    "3": {
+      "item": "jewls:peridot"
+    },
+    "4": {
+      "item": "jewls:peridot"
+    },
+    "5": {
+      "item": "jewls:peridot"
+    },
+    "6": {
+      "item": "jewls:peridot"
+    },
+    "7": {
+      "item": "jewls:peridot"
+    },
+    "8": {
+      "item": "jewls:peridot"
+    }
+  },
+  "result": {
+    "item": "jewls:peridot_block",
+    "count": 1
+  }
+}

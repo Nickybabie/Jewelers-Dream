@@ -1,5 +1,15 @@
 {
-  "block.jewls.gfd_ore": "Gfd Ore",
-  "item.jewls.gfd": "Gfd",
-  "block.jewls.gfd_block": "Block of Gfd"
+  "item.jewls.aquamarine": "Aquamarine",
+  "itemGroup.tabjewelers_dream": "Jeweler\u0027s Dream",
+  "block.jewls.peridot_ore": "Peridot Ore",
+  "block.jewls.aquamarine_block": "Block of Aquamarine",
+  "item.jewls.raw_citrine": "Raw Citrine",
+  "block.jewls.aquamarine_ore": "Aquamarine Ore",
+  "item.jewls.citrine": "Citrine Gem",
+  "item.jewls.raw_peridot": "Raw Peridot",
+  "block.jewls.peridot_block": "Block of Peridot",
+  "item.jewls.peridot": "Peridot",
+  "item.jewls.raw_aquamarine": "Raw Aquamarine",
+  "block.jewls.citrine_ore": "Citrine Ore",
+  "block.jewls.citrine_block": "Block of Citrine"
 }

@@ -1,7 +1,11 @@
 {
   "replace": false,
   "values": [
-    "jewls:gfd_ore",
-    "jewls:gfd_block"
+    "jewls:citrine_ore",
+    "jewls:citrine_block",
+    "jewls:peridot_ore",
+    "jewls:peridot_block",
+    "jewls:aquamarine_ore",
+    "jewls:aquamarine_block"
   ]
 }

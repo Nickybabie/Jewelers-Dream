@@ -1,61 +1,199 @@
 {
   "mod_elements": [
     {
-      "name": "Gfd",
+      "name": "Citrine",
       "type": "item",
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gfd"
+      "registry_name": "citrine"
     },
     {
-      "name": "GfdOre",
+      "name": "CitrineOre",
       "type": "block",
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gfd_ore"
+      "registry_name": "citrine_ore"
     },
     {
-      "name": "GfdBlock",
+      "name": "CitrineBlock",
       "type": "block",
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gfd_block"
+      "registry_name": "citrine_block"
     },
     {
-      "name": "GfdOreBlockRecipe",
+      "name": "CitrineOreBlockRecipe",
       "type": "recipe",
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gfd_ore_block_recipe"
+      "registry_name": "citrine_ore_block_recipe"
     },
     {
-      "name": "GfdBlockOreRecipe",
+      "name": "CitrineBlockOreRecipe",
       "type": "recipe",
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gfd_block_ore_recipe"
+      "registry_name": "citrine_block_ore_recipe"
     },
     {
-      "name": "GfdOreSmelting",
+      "name": "CitrineOreSmelting",
       "type": "recipe",
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gfd_ore_smelting"
+      "registry_name": "citrine_ore_smelting"
+    },
+    {
+      "name": "RawCitrine",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_citrine"
+    },
+    {
+      "name": "Peridot",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot"
+    },
+    {
+      "name": "PeridotOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_ore"
+    },
+    {
+      "name": "PeridotBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_block"
+    },
+    {
+      "name": "PeridotOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_ore_block_recipe"
+    },
+    {
+      "name": "PeridotBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_block_ore_recipe"
+    },
+    {
+      "name": "PeridotOreSmelting",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_ore_smelting"
+    },
+    {
+      "name": "Aquamarine",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine"
+    },
+    {
+      "name": "AquamarineOre",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_ore"
+    },
+    {
+      "name": "AquamarineBlock",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_block"
+    },
+    {
+      "name": "AquamarineOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_ore_block_recipe"
+    },
+    {
+      "name": "AquamarineBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_block_ore_recipe"
+    },
+    {
+      "name": "AquamarineOreSmelting",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_ore_smelting"
+    },
+    {
+      "name": "RawPeridot",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_peridot"
+    },
+    {
+      "name": "RawAquamarine",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_aquamarine"
+    },
+    {
+      "name": "JewelersDream",
+      "type": "tab",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jewelers_dream"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.jewls.gfd_ore": "Gfd Ore",
-      "item.jewls.gfd": "Gfd",
-      "block.jewls.gfd_block": "Block of Gfd"
+      "item.jewls.aquamarine": "Aquamarine",
+      "itemGroup.tabjewelers_dream": "Jeweler\u0027s Dream",
+      "block.jewls.peridot_ore": "Peridot Ore",
+      "block.jewls.aquamarine_block": "Block of Aquamarine",
+      "item.jewls.raw_citrine": "Raw Citrine",
+      "block.jewls.aquamarine_ore": "Aquamarine Ore",
+      "item.jewls.citrine": "Citrine Gem",
+      "item.jewls.raw_peridot": "Raw Peridot",
+      "block.jewls.peridot_block": "Block of Peridot",
+      "item.jewls.peridot": "Peridot",
+      "item.jewls.raw_aquamarine": "Raw Aquamarine",
+      "block.jewls.citrine_ore": "Citrine Ore",
+      "block.jewls.citrine_block": "Block of Citrine"
     }
   },
   "foldersRoot": {

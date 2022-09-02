@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "jewls:citrine"
+    },
+    "1": {
+      "item": "jewls:citrine"
+    },
+    "2": {
+      "item": "jewls:citrine"
+    },
+    "3": {
+      "item": "jewls:citrine"
+    },
+    "4": {
+      "item": "jewls:citrine"
+    },
+    "5": {
+      "item": "jewls:citrine"
+    },
+    "6": {
+      "item": "jewls:citrine"
+    },
+    "7": {
+      "item": "jewls:citrine"
+    },
+    "8": {
+      "item": "jewls:citrine"
+    }
+  },
+  "result": {
+    "item": "jewls:citrine_block",
+    "count": 1
+  }
+}

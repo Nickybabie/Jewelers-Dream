@@ -17,7 +17,9 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
-import net.mcreator.jewls.world.features.ores.GfdOreFeature;
+import net.mcreator.jewls.world.features.ores.PeridotOreFeature;
+import net.mcreator.jewls.world.features.ores.CitrineOreFeature;
+import net.mcreator.jewls.world.features.ores.AquamarineOreFeature;
 import net.mcreator.jewls.JewlsMod;
 
 import java.util.function.Supplier;
@@ -29,8 +31,12 @@ import java.util.ArrayList;
 public class JewlsModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, JewlsMod.MODID);
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
-	public static final RegistryObject<Feature<?>> GFD_ORE = register("gfd_ore", GfdOreFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, GfdOreFeature.GENERATE_BIOMES, GfdOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> CITRINE_ORE = register("citrine_ore", CitrineOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, CitrineOreFeature.GENERATE_BIOMES, CitrineOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> PERIDOT_ORE = register("peridot_ore", PeridotOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, PeridotOreFeature.GENERATE_BIOMES, PeridotOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> AQUAMARINE_ORE = register("aquamarine_ore", AquamarineOreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, AquamarineOreFeature.GENERATE_BIOMES, AquamarineOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

@@ -8,7 +8,7 @@
     "name": "Raw RoseQuartz",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:JewelersDream"
     },
     "stackSize": 64,
     "enchantability": 0,

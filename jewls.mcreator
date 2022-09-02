@@ -303,7 +303,7 @@
     "en_us": {
       "block.jewls.malachite_block": "Block of Malachite",
       "item.jewls.aquamarine": "Aquamarine",
-      "item.jewls.rose_quartz": "RoseQuartz",
+      "item.jewls.rose_quartz": "Raw RoseQuartz",
       "itemGroup.tabjewelers_dream": "Jeweler\u0027s Dream",
       "block.jewls.aquamarine_block": "Block of Aquamarine",
       "block.jewls.peridot_ore": "Peridot Ore",
@@ -318,6 +318,7 @@
       "item.jewls.malachite": "Raw Malachite",
       "item.jewls.raw_aquamarine": "Raw Aquamarine",
       "block.jewls.jewelers_table": "Jeweler\u0027s Table",
+      "item.jewls.rose_quartz_gem": "Rose Quartz Gem",
       "block.jewls.citrine_ore": "Citrine Ore",
       "block.jewls.malachite_ore": "Malachite Ore",
       "block.jewls.citrine_block": "Block of Citrine"

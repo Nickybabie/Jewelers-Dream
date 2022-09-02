@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "jewls:rose_quartz_block"
+      "item": "jewls:deleted_mod_element"
     }
   ],
   "result": {
-    "item": "jewls:rose_quartz",
+    "item": "jewls:deleted_mod_element",
     "count": 9
   }
 }

@@ -1,20 +1,12 @@
 {
   "mod_elements": [
     {
-      "name": "Malachite",
-      "type": "item",
-      "sortid": 1,
+      "name": "MalachiteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "malachite"
-    },
-    {
-      "name": "MalachiteOre",
-      "type": "block",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "malachite_ore"
+      "registry_name": "malachite_ore_block_recipe"
     },
     {
       "name": "MalachiteBlock",
@@ -25,20 +17,12 @@
       "registry_name": "malachite_block"
     },
     {
-      "name": "MalachiteOreBlockRecipe",
+      "name": "RoseQuartzBlockOreRecipe",
       "type": "recipe",
-      "sortid": 4,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "malachite_ore_block_recipe"
-    },
-    {
-      "name": "MalachiteBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "malachite_block_ore_recipe"
+      "registry_name": "rose_quartz_block_ore_recipe"
     },
     {
       "name": "MalachiteOreSmelting",
@@ -49,12 +33,28 @@
       "registry_name": "malachite_ore_smelting"
     },
     {
+      "name": "RoseQuartzOreSmelting",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_quartz_ore_smelting"
+    },
+    {
       "name": "RoseQuartz",
       "type": "item",
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rose_quartz"
+    },
+    {
+      "name": "MalachiteOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_ore"
     },
     {
       "name": "RoseQuartzOre",
@@ -65,12 +65,20 @@
       "registry_name": "rose_quartz_ore"
     },
     {
-      "name": "RoseQuartzBlock",
-      "type": "block",
-      "sortid": 9,
+      "name": "Malachite",
+      "type": "item",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rose_quartz_block"
+      "registry_name": "malachite"
+    },
+    {
+      "name": "MalachiteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_block_ore_recipe"
     },
     {
       "name": "RoseQuartzOreBlockRecipe",
@@ -81,33 +89,194 @@
       "registry_name": "rose_quartz_ore_block_recipe"
     },
     {
-      "name": "RoseQuartzBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 11,
+      "name": "RoseQuartzBlock",
+      "type": "block",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rose_quartz_block_ore_recipe"
+      "registry_name": "rose_quartz_block"
     },
     {
-      "name": "RoseQuartzOreSmelting",
+      "name": "CitrineOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrine_ore_smelting"
+    },
+    {
+      "name": "CitrineOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrine_ore_block_recipe"
+    },
+    {
+      "name": "RawAquamarine",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_aquamarine"
+    },
+    {
+      "name": "CitrineOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrine_ore"
+    },
+    {
+      "name": "PeridotBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_block"
+    },
+    {
+      "name": "PeridotBlockOreRecipe",
       "type": "recipe",
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rose_quartz_ore_smelting"
+      "registry_name": "peridot_block_ore_recipe"
+    },
+    {
+      "name": "PeridotOreSmelting",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_ore_smelting"
+    },
+    {
+      "name": "AquamarineOre",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_ore"
+    },
+    {
+      "name": "JewelersDream",
+      "type": "tab",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jewelers_dream"
+    },
+    {
+      "name": "PeridotOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_ore_block_recipe"
+    },
+    {
+      "name": "CitrineBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrine_block"
+    },
+    {
+      "name": "RawCitrine",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_citrine"
+    },
+    {
+      "name": "Aquamarine",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine"
+    },
+    {
+      "name": "AquamarineOreSmelting",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_ore_smelting"
+    },
+    {
+      "name": "RawPeridot",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_peridot"
+    },
+    {
+      "name": "AquamarineBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_block_ore_recipe"
+    },
+    {
+      "name": "AquamarineOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_ore_block_recipe"
+    },
+    {
+      "name": "Citrine",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrine"
+    },
+    {
+      "name": "PeridotOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_ore"
+    },
+    {
+      "name": "CitrineBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrine_block_ore_recipe"
+    },
+    {
+      "name": "AquamarineBlock",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_block"
+    },
+    {
+      "name": "Peridot",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "block.jewls.malachite_block": "Block of Malachite",
-      "item.jewls.rose_quartz": "RoseQuartz",
-      "item.jewls.malachite": "Raw Malachite",
-      "block.jewls.rose_quartz_ore": "RoseQuartz Ore",
-      "block.jewls.rose_quartz_block": "Block of RoseQuartz",
-      "block.jewls.malachite_ore": "Malachite Ore"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",

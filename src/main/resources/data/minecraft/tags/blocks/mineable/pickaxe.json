@@ -2,8 +2,14 @@
   "replace": false,
   "values": [
     "jewls:malachite_ore",
+    "jewls:citrine_ore",
     "jewls:malachite_block",
+    "jewls:citrine_block",
     "jewls:rose_quartz_ore",
-    "jewls:rose_quartz_block"
+    "jewls:rose_quartz_block",
+    "jewls:peridot_ore",
+    "jewls:peridot_block",
+    "jewls:aquamarine_ore",
+    "jewls:aquamarine_block"
   ]
 }

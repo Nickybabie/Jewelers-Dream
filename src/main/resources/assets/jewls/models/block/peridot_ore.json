@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "jewls:blocks/peridot_ore",
+    "particle": "jewls:blocks/peridot_ore"
+  }
+}

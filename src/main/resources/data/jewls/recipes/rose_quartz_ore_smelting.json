@@ -3,7 +3,7 @@
   "experience": 0.7,
   "cookingtime": 200,
   "ingredient": {
-    "item": "jewls:rose_quartz_ore"
+    "item": "jewls:deleted_mod_element"
   },
-  "result": "jewls:rose_quartz"
+  "result": "jewls:deleted_mod_element"
 }

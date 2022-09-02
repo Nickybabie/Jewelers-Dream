@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "jewls:aquamarine"
+    },
+    "1": {
+      "item": "jewls:aquamarine"
+    },
+    "2": {
+      "item": "jewls:aquamarine"
+    },
+    "3": {
+      "item": "jewls:aquamarine"
+    },
+    "4": {
+      "item": "jewls:aquamarine"
+    },
+    "5": {
+      "item": "jewls:aquamarine"
+    },
+    "6": {
+      "item": "jewls:aquamarine"
+    },
+    "7": {
+      "item": "jewls:aquamarine"
+    },
+    "8": {
+      "item": "jewls:aquamarine"
+    }
+  },
+  "result": {
+    "item": "jewls:deleted_mod_element",
+    "count": 1
+  }
+}

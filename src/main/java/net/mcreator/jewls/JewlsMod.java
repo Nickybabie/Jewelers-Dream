@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.jewls.init.JewlsModTabs;
 import net.mcreator.jewls.init.JewlsModItems;
 import net.mcreator.jewls.init.JewlsModFeatures;
 import net.mcreator.jewls.init.JewlsModBlocks;
@@ -44,7 +45,7 @@ public class JewlsMod {
 	private static int messageID = 0;
 
 	public JewlsMod() {
-
+		JewlsModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		JewlsModBlocks.REGISTRY.register(bus);
 		JewlsModItems.REGISTRY.register(bus);

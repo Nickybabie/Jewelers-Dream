@@ -18,7 +18,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
 import net.mcreator.jewls.world.features.ores.RoseQuartzOreFeature;
+import net.mcreator.jewls.world.features.ores.PeridotOreFeature;
 import net.mcreator.jewls.world.features.ores.MalachiteOreFeature;
+import net.mcreator.jewls.world.features.ores.CitrineOreFeature;
+import net.mcreator.jewls.world.features.ores.AquamarineOreFeature;
 import net.mcreator.jewls.JewlsMod;
 
 import java.util.function.Supplier;
@@ -32,9 +35,15 @@ public class JewlsModFeatures {
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
 	public static final RegistryObject<Feature<?>> MALACHITE_ORE = register("malachite_ore", MalachiteOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, MalachiteOreFeature.GENERATE_BIOMES, MalachiteOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> CITRINE_ORE = register("citrine_ore", CitrineOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, CitrineOreFeature.GENERATE_BIOMES, CitrineOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> ROSE_QUARTZ_ORE = register("rose_quartz_ore", RoseQuartzOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, RoseQuartzOreFeature.GENERATE_BIOMES,
 					RoseQuartzOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> PERIDOT_ORE = register("peridot_ore", PeridotOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, PeridotOreFeature.GENERATE_BIOMES, PeridotOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> AQUAMARINE_ORE = register("aquamarine_ore", AquamarineOreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, AquamarineOreFeature.GENERATE_BIOMES, AquamarineOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

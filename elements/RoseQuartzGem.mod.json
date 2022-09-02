@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "rosequartz_gem",
     "customModelName": "Normal",
-    "name": "Rose Quartz Gem",
+    "name": "RoseQuartz Gem",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:JewelersDream"

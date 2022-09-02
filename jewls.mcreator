@@ -295,30 +295,100 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "rose_quartz_gem"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore"
+    },
+    {
+      "name": "SilverBlock",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block"
+    },
+    {
+      "name": "SilverOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_block_recipe"
+    },
+    {
+      "name": "SilverBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block_ore_recipe"
+    },
+    {
+      "name": "SilverOreSmelting",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_smelting"
+    },
+    {
+      "name": "SilverNeckChain",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_neck_chain"
+    },
+    {
+      "name": "GoldNeckChain",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_neck_chain"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.jewls.malachite_block": "Block of Malachite",
       "item.jewls.aquamarine": "Aquamarine",
-      "item.jewls.rose_quartz": "RoseQuartz",
+      "item.jewls.rose_quartz": "Raw RoseQuartz",
       "itemGroup.tabjewelers_dream": "Jeweler\u0027s Dream",
-      "block.jewls.aquamarine_block": "Block of Aquamarine",
-      "block.jewls.peridot_ore": "Peridot Ore",
-      "item.jewls.raw_citrine": "Raw Citrine",
       "block.jewls.rose_quartz_ore": "RoseQuartz Ore",
       "block.jewls.aquamarine_ore": "Aquamarine Ore",
       "block.jewls.rose_quartz_block": "Block of RoseQuartz",
       "item.jewls.citrine": "Citrine Gem",
-      "item.jewls.raw_peridot": "Raw Peridot",
+      "block.jewls.silver_block": "Block of Silver",
       "block.jewls.peridot_block": "Block of Peridot",
-      "item.jewls.peridot": "Peridot",
       "item.jewls.malachite": "Raw Malachite",
       "item.jewls.raw_aquamarine": "Raw Aquamarine",
       "block.jewls.jewelers_table": "Jeweler\u0027s Table",
       "block.jewls.citrine_ore": "Citrine Ore",
+      "item.jewls.silver_neck_chain": "Silver Neck Chain",
+      "block.jewls.malachite_block": "Block of Malachite",
+      "block.jewls.silver_ore": "Silver Ore",
+      "item.jewls.silver_ingot": "Silver Ingot",
+      "block.jewls.aquamarine_block": "Block of Aquamarine",
+      "block.jewls.peridot_ore": "Peridot Ore",
+      "item.jewls.raw_citrine": "Raw Citrine",
+      "item.jewls.gold_neck_chain": "Gold Neck Chain",
+      "item.jewls.raw_peridot": "Raw Peridot",
+      "item.jewls.peridot": "Peridot",
+      "item.jewls.rose_quartz_gem": "Rose Quartz Gem",
       "block.jewls.malachite_ore": "Malachite Ore",
       "block.jewls.citrine_block": "Block of Citrine"
     }

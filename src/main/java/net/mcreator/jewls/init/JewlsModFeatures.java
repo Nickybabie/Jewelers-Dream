@@ -17,6 +17,7 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
+import net.mcreator.jewls.world.features.ores.SilverOreFeature;
 import net.mcreator.jewls.world.features.ores.RoseQuartzOreFeature;
 import net.mcreator.jewls.world.features.ores.PeridotOreFeature;
 import net.mcreator.jewls.world.features.ores.MalachiteOreFeature;
@@ -44,6 +45,8 @@ public class JewlsModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, PeridotOreFeature.GENERATE_BIOMES, PeridotOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> AQUAMARINE_ORE = register("aquamarine_ore", AquamarineOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, AquamarineOreFeature.GENERATE_BIOMES, AquamarineOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SILVER_ORE = register("silver_ore", SilverOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, SilverOreFeature.GENERATE_BIOMES, SilverOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

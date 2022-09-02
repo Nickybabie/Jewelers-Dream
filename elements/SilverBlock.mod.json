@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "malachite_ore",
+    "texture": "silver_ore_block",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,10 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "Malachite Ore",
+    "name": "Block of Silver",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 5.0,
+    "hardness": 5.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -44,7 +44,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Malachite"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -54,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -123,25 +123,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
-      },
-      {
-        "value": "Blocks.COAL_ORE"
-      },
-      {
-        "value": "Blocks.IRON_ORE"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 11,
-    "frequencyOnChunk": 7,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 63
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

@@ -14,6 +14,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.jewls.block.SilverOreBlock;
+import net.mcreator.jewls.block.SilverBlockBlock;
 import net.mcreator.jewls.block.RoseQuartzOreBlock;
 import net.mcreator.jewls.block.RoseQuartzBlockBlock;
 import net.mcreator.jewls.block.PeridotOreBlock;
@@ -40,6 +42,8 @@ public class JewlsModBlocks {
 	public static final RegistryObject<Block> AQUAMARINE_ORE = REGISTRY.register("aquamarine_ore", () -> new AquamarineOreBlock());
 	public static final RegistryObject<Block> AQUAMARINE_BLOCK = REGISTRY.register("aquamarine_block", () -> new AquamarineBlockBlock());
 	public static final RegistryObject<Block> JEWELERS_TABLE = REGISTRY.register("jewelers_table", () -> new JewelersTableBlock());
+	public static final RegistryObject<Block> SILVER_ORE = REGISTRY.register("silver_ore", () -> new SilverOreBlock());
+	public static final RegistryObject<Block> SILVER_BLOCK = REGISTRY.register("silver_block", () -> new SilverBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

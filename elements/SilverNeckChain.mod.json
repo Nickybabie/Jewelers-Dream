@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "rosequartz",
+    "texture": "silver_neck_chain",
     "customModelName": "Normal",
-    "name": "Raw RoseQuartz",
+    "name": "Silver Neck Chain",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:JewelersDream"

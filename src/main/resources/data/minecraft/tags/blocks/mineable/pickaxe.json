@@ -10,6 +10,8 @@
     "jewls:peridot_ore",
     "jewls:peridot_block",
     "jewls:aquamarine_ore",
-    "jewls:aquamarine_block"
+    "jewls:aquamarine_block",
+    "jewls:silver_ore",
+    "jewls:silver_block"
   ]
 }

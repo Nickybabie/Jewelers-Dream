@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "rosequartz",
+    "texture": "silver_ingot",
     "customModelName": "Normal",
-    "name": "Raw RoseQuartz",
+    "name": "Silver Ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:JewelersDream"

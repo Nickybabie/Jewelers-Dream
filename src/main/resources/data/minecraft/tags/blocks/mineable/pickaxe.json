@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
-    "jewls:gfd_ore",
-    "jewls:gfd_block"
+    "jewls:malachite_ore",
+    "jewls:malachite_block",
+    "jewls:rose_quartz_ore",
+    "jewls:rose_quartz_block"
   ]
 }

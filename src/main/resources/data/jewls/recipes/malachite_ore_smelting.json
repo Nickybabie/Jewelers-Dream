@@ -3,7 +3,7 @@
   "experience": 0.7,
   "cookingtime": 200,
   "ingredient": {
-    "item": "jewls:gfd_ore"
+    "item": "jewls:malachite_ore"
   },
-  "result": "jewls:gfd"
+  "result": "jewls:malachite"
 }

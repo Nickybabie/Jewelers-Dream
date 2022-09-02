@@ -30,21 +30,24 @@ import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
+import net.mcreator.jewls.init.JewlsModBlocks;
+
 import java.util.Set;
 import java.util.Random;
 import java.util.List;
 
-public class GfdOreFeature extends OreFeature {
-	public static GfdOreFeature FEATURE = null;
+public class RoseQuartzOreFeature extends OreFeature {
+	public static RoseQuartzOreFeature FEATURE = null;
 	public static Holder<ConfiguredFeature<OreConfiguration, ?>> CONFIGURED_FEATURE = null;
 	public static Holder<PlacedFeature> PLACED_FEATURE = null;
 
 	public static Feature<?> feature() {
-		FEATURE = new GfdOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("jewls:gfd_ore", FEATURE,
-				new OreConfiguration(GfdOreFeatureRuleTest.INSTANCE, JewlsModBlocks.GFD_ORE.get().defaultBlockState(), 7));
-		PLACED_FEATURE = PlacementUtils.register("jewls:gfd_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(11), InSquarePlacement.spread(),
-				HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(63)), BiomeFilter.biome()));
+		FEATURE = new RoseQuartzOreFeature();
+		CONFIGURED_FEATURE = FeatureUtils.register("jewls:rose_quartz_ore", FEATURE,
+				new OreConfiguration(RoseQuartzOreFeatureRuleTest.INSTANCE, JewlsModBlocks.ROSE_QUARTZ_ORE.get().defaultBlockState(), 7));
+		PLACED_FEATURE = PlacementUtils.register("jewls:rose_quartz_ore", CONFIGURED_FEATURE,
+				List.of(CountPlacement.of(11), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(63)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -55,7 +58,7 @@ public class GfdOreFeature extends OreFeature {
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
-	public GfdOreFeature() {
+	public RoseQuartzOreFeature() {
 		super(OreConfiguration.CODEC);
 	}
 
@@ -67,14 +70,14 @@ public class GfdOreFeature extends OreFeature {
 	}
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	private static class GfdOreFeatureRuleTest extends RuleTest {
-		static final GfdOreFeatureRuleTest INSTANCE = new GfdOreFeatureRuleTest();
-		private static final com.mojang.serialization.Codec<GfdOreFeatureRuleTest> CODEC = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		private static final RuleTestType<GfdOreFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
+	private static class RoseQuartzOreFeatureRuleTest extends RuleTest {
+		static final RoseQuartzOreFeatureRuleTest INSTANCE = new RoseQuartzOreFeatureRuleTest();
+		private static final com.mojang.serialization.Codec<RoseQuartzOreFeatureRuleTest> CODEC = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+		private static final RuleTestType<RoseQuartzOreFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("jewls:gfd_ore_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("jewls:rose_quartz_ore_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;

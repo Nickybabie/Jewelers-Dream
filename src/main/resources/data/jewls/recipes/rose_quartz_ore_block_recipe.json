@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "jewls:rose_quartz"
+    },
+    "1": {
+      "item": "jewls:rose_quartz"
+    },
+    "2": {
+      "item": "jewls:rose_quartz"
+    },
+    "3": {
+      "item": "jewls:rose_quartz"
+    },
+    "4": {
+      "item": "jewls:rose_quartz"
+    },
+    "5": {
+      "item": "jewls:rose_quartz"
+    },
+    "6": {
+      "item": "jewls:rose_quartz"
+    },
+    "7": {
+      "item": "jewls:rose_quartz"
+    },
+    "8": {
+      "item": "jewls:rose_quartz"
+    }
+  },
+  "result": {
+    "item": "jewls:rose_quartz_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "jewls:blocks/rosequartz_ore",
+    "particle": "jewls:blocks/rosequartz_ore"
+  }
+}

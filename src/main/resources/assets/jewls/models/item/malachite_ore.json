@@ -1,5 +1,5 @@
 {
-  "parent": "jewls:block/gfd_block",
+  "parent": "jewls:block/malachite_ore",
   "display": {
     "thirdperson": {
       "rotation": [

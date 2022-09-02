@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "jewls:gfd_block"
+      "item": "jewls:rose_quartz_block"
     }
   ],
   "result": {
-    "item": "jewls:gfd",
+    "item": "jewls:rose_quartz",
     "count": 9
   }
 }

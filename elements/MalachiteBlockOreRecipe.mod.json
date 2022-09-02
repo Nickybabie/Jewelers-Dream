@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:GfdBlock"
+        "value": "CUSTOM:MalachiteBlock"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Gfd"
+      "value": "CUSTOM:Malachite"
     },
-    "name": "gfd_block_ore_recipe",
+    "name": "malachite_block_ore_recipe",
     "namespace": "mod"
   }
 }

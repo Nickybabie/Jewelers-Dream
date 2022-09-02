@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "jewls:malachite"
+    },
+    "1": {
+      "item": "jewls:malachite"
+    },
+    "2": {
+      "item": "jewls:malachite"
+    },
+    "3": {
+      "item": "jewls:malachite"
+    },
+    "4": {
+      "item": "jewls:malachite"
+    },
+    "5": {
+      "item": "jewls:malachite"
+    },
+    "6": {
+      "item": "jewls:malachite"
+    },
+    "7": {
+      "item": "jewls:malachite"
+    },
+    "8": {
+      "item": "jewls:malachite"
+    }
+  },
+  "result": {
+    "item": "jewls:malachite_block",
+    "count": 1
+  }
+}

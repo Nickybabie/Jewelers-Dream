@@ -17,7 +17,8 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
-import net.mcreator.jewls.world.features.ores.GfdOreFeature;
+import net.mcreator.jewls.world.features.ores.RoseQuartzOreFeature;
+import net.mcreator.jewls.world.features.ores.MalachiteOreFeature;
 import net.mcreator.jewls.JewlsMod;
 
 import java.util.function.Supplier;
@@ -29,8 +30,11 @@ import java.util.ArrayList;
 public class JewlsModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, JewlsMod.MODID);
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
-	public static final RegistryObject<Feature<?>> GFD_ORE = register("gfd_ore", GfdOreFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, GfdOreFeature.GENERATE_BIOMES, GfdOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> MALACHITE_ORE = register("malachite_ore", MalachiteOreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, MalachiteOreFeature.GENERATE_BIOMES, MalachiteOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> ROSE_QUARTZ_ORE = register("rose_quartz_ore", RoseQuartzOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, RoseQuartzOreFeature.GENERATE_BIOMES,
+					RoseQuartzOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

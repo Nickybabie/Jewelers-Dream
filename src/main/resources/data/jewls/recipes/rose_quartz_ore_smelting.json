@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "jewls:rose_quartz_ore"
+  },
+  "result": "jewls:rose_quartz"
+}

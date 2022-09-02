@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jewls:malachite_block"
+    }
+  ],
+  "result": {
+    "item": "jewls:malachite",
+    "count": 9
+  }
+}

@@ -16,9 +16,9 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class GfdOreBlock extends Block {
-	public GfdOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(3f, 5f).requiresCorrectToolForDrops());
+public class RoseQuartzBlockBlock extends Block {
+	public RoseQuartzBlockBlock() {
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -38,6 +38,6 @@ public class GfdOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(JewlsModItems.GFD.get()));
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }

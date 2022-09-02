@@ -41,12 +41,12 @@
       "value": ""
     },
     "smeltingInputStack": {
-      "value": "CUSTOM:GfdOre"
+      "value": "CUSTOM:MalachiteOre"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:Gfd"
+      "value": "CUSTOM:Malachite"
     },
-    "name": "gfd_ore_smelting",
+    "name": "malachite_ore_smelting",
     "namespace": "mod"
   }
 }

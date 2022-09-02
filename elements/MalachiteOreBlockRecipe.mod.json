@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Gfd"
+        "value": "CUSTOM:Malachite"
       },
       {
-        "value": "CUSTOM:Gfd"
+        "value": "CUSTOM:Malachite"
       },
       {
-        "value": "CUSTOM:Gfd"
+        "value": "CUSTOM:Malachite"
       },
       {
-        "value": "CUSTOM:Gfd"
+        "value": "CUSTOM:Malachite"
       },
       {
-        "value": "CUSTOM:Gfd"
+        "value": "CUSTOM:Malachite"
       },
       {
-        "value": "CUSTOM:Gfd"
+        "value": "CUSTOM:Malachite"
       },
       {
-        "value": "CUSTOM:Gfd"
+        "value": "CUSTOM:Malachite"
       },
       {
-        "value": "CUSTOM:Gfd"
+        "value": "CUSTOM:Malachite"
       },
       {
-        "value": "CUSTOM:Gfd"
+        "value": "CUSTOM:Malachite"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GfdBlock"
+      "value": "CUSTOM:MalachiteBlock"
     },
-    "name": "gfd_ore_block_recipe",
+    "name": "malachite_ore_block_recipe",
     "namespace": "mod"
   }
 }

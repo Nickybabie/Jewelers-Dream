@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "gfd_gem",
+    "texture": "malachite_gem",
     "customModelName": "Normal",
-    "name": "Gfd",
+    "name": "Raw Malachite",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"

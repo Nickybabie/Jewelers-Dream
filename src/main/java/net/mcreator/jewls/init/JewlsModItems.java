@@ -37,9 +37,9 @@ public class JewlsModItems {
 	public static final RegistryObject<Item> CITRINE_BLOCK = block(JewlsModBlocks.CITRINE_BLOCK, JewlsModTabs.TAB_JEWELERS_DREAM);
 	public static final RegistryObject<Item> ROSE_QUARTZ = REGISTRY.register("rose_quartz", () -> new RoseQuartzItem());
 	public static final RegistryObject<Item> RAW_CITRINE = REGISTRY.register("raw_citrine", () -> new RawCitrineItem());
-	public static final RegistryObject<Item> ROSE_QUARTZ_ORE = block(JewlsModBlocks.ROSE_QUARTZ_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ROSE_QUARTZ_ORE = block(JewlsModBlocks.ROSE_QUARTZ_ORE, JewlsModTabs.TAB_JEWELERS_DREAM);
 	public static final RegistryObject<Item> PERIDOT = REGISTRY.register("peridot", () -> new PeridotItem());
-	public static final RegistryObject<Item> ROSE_QUARTZ_BLOCK = block(JewlsModBlocks.ROSE_QUARTZ_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ROSE_QUARTZ_BLOCK = block(JewlsModBlocks.ROSE_QUARTZ_BLOCK, JewlsModTabs.TAB_JEWELERS_DREAM);
 	public static final RegistryObject<Item> PERIDOT_ORE = block(JewlsModBlocks.PERIDOT_ORE, JewlsModTabs.TAB_JEWELERS_DREAM);
 	public static final RegistryObject<Item> PERIDOT_BLOCK = block(JewlsModBlocks.PERIDOT_BLOCK, JewlsModTabs.TAB_JEWELERS_DREAM);
 	public static final RegistryObject<Item> AQUAMARINE = REGISTRY.register("aquamarine", () -> new AquamarineItem());

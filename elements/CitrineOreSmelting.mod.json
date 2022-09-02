@@ -8,43 +8,11 @@
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
-      "value": ""
-    },
     "smeltingInputStack": {
       "value": "CUSTOM:CitrineOre"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:Citrine"
+      "value": "CUSTOM:RawCitrine"
     },
     "name": "citrine_ore_smelting",
     "namespace": "mod"

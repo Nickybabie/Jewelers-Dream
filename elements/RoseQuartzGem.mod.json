@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "rosequartz",
+    "texture": "rosequartz_gem",
     "customModelName": "Normal",
-    "name": "Raw RoseQuartz",
+    "name": "Rose Quartz Gem",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"

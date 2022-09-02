@@ -287,6 +287,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "jewelers_table_gui"
+    },
+    {
+      "name": "RoseQuartzGem",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_quartz_gem"
     }
   ],
   "variable_elements": [],
